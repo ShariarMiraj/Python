@@ -1,3 +1,3 @@
-print("hello world ")
-print(5)
-print("hi, I am sharirar mahmud miraj")
+print("Helo ... I am miraj")
+print(5,77)
+print(7*2)
