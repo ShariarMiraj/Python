@@ -102,3 +102,171 @@ print(2 == 3 and 2 > 3)
 print(2 == 3 or 2 > 3)
 print(2 != 3)
 
+print("\n\n\n")
+# if else
+a = 2
+b = 3
+if a > b:
+    print("a is greater than b")
+elif a < b:
+    print("a is less than b")
+else:
+    print("a is equal to b")
+
+print("\n\n\n")
+# if else if else
+a = 2
+b = 3
+if a > b:
+    print("a is greater than b")
+elif a < b:
+    print("a is less than b")
+elif a == b:
+    print("a is equal to b")
+else:
+    print("a is not greater than b")
+
+print("\n\n\n")
+# if elif elif else
+a = 2
+b = 3
+if a > b:
+    print("a is greater than b")
+elif a < b:
+    print("a is less than b")
+elif a == b:
+    print("a is equal to b")
+elif a != b:
+    print("a is not equal to b")
+else:
+    print("a is not greater than b")
+
+print("\n\n\n")
+# if elif elif elif else
+a = 2
+b = 3
+if a > b:
+    print("a is greater than b")
+elif a < b:
+    print("a is less than b")
+elif a == b:
+    print("a is equal to b")
+elif a != b:
+    print("a is not equal to b")
+elif a > b:
+    print("a is greater than b")
+else :
+  print("a is not greater than b")
+
+#Calculator
+print("\n\n\n")
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+
+choice = int(input("Enter your choice: "))
+if choice == 1:
+    print(a + b)
+elif choice == 2:
+    print(a - b)
+elif choice == 3:
+    print(a * b)
+elif choice == 4:
+    print(a / b)
+else:
+    print("Invalid choice")
+
+
+
+
+
+  # //////////////////////////////////////////////////////////////////////
+print("\n\n\n")
+# Loops
+# for loop
+for i in range(1, 5):
+    print(i)
+  
+print("\n\n\n")
+# while loop
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+  
+print("\n\n\n")
+# break and continue
+for i in range(1, 5
+               ):
+  if i == 3:
+    break
+  print(i)
+  
+print("\n\n\n")
+for i in range(1, 5
+               ):
+  if i == 3:
+    continue
+  print(i)
+  
+print("\n\n\n")
+# nested loops
+for i in range(1, 5
+               ):
+  for j in range(1, 5
+                 ):
+    print(i, j)
+    
+print("\n\n\n")
+# break and continue in nested loops
+for i in range(1, 5
+               ):
+  for j in range(1, 5
+                 ):
+    if i == 3:
+      break
+    print(i, j)
+    
+print("\n\n\n")
+for i in range(1, 5
+               ):
+  for j in range(1, 5
+                 ):
+    if i == 3:
+      continue
+    print(i, j)
+    
+print("\n\n\n")
+# Functions
+def add(a, b):
+    return a + b
+  
+print(add(2, 3))
+  
+print("\n\n\n")
+# Function with default parameters
+def add(a, b = 1):
+    return a + b
+  
+print(add(2))
+  
+print("\n\n\n")
+# Function with default parameters
+def add(a, b = 1):
+    return a + b
+  
+print(add(2, 3))
+  
+print("\n\n\n")
+# Function with default parameters
+def add(a, b = 1):
+    return a + b
+  
+print(add(2, 3))    
+  
+print("\n\n\n")
+# Function with default parameters
+
