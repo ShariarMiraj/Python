@@ -71,3 +71,34 @@ print(2 / 3)
 print(2 ** 3)
 print(2 % 3)
 print(2 // 3)
+
+print("\n\n\n")
+# Assignment Operators
+a = b = c = d = e = f = g = h = 2
+print(a, b, c, d, e, f, g, h)
+
+a += 3
+b -= 3
+c *= 3
+d /= 3
+e **= 3
+f %= 3
+g //= 3
+h &= 3
+print(a, b, c, d, e, f, g, h)
+
+print("\n\n\n")
+# Comparison Operators
+print(2 == 3)
+print(2 != 3)
+print(2 > 3)
+print(2 < 3)
+print(2 >= 3)
+print(2 <= 3)
+
+print("\n\n\n")
+# Logical Operators
+print(2 == 3 and 2 > 3)
+print(2 == 3 or 2 > 3)
+print(2 != 3)
+
