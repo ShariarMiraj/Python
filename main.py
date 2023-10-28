@@ -59,3 +59,15 @@ print("\n\n\n")
 tup = ("python", "java", "c++", "c#", "c")
 print(tup)
 print(type(tup))
+
+# Calculattion 
+
+print("\n\n\n")
+# Operators
+print(2 + 3)
+print(2 - 3)
+print(2 * 3)
+print(2 / 3)
+print(2 ** 3)
+print(2 % 3)
+print(2 // 3)
