@@ -56,6 +56,30 @@ print(fruit[0:3])
 nm="MIRAJ"
 print(nm[-4:-2])
 
+#////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+# String are immutable
+
+a ="Miraj"
+print(len(a))
+print(a)
+
+str1= "AcBHHiimm"
+print(str1.lower())
+print(str1.upper())
+print(str1.title())
+print(str1.swapcase())
+
+# rstrip
+
+str2= "!!!Miraj !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+print(str2.rstrip("!"))
+
+# replace 
+str3= "Miraj "
+print(str3.replace("Miraj","Singh"))
+
+
 
 
 
