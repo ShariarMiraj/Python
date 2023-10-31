@@ -113,6 +113,51 @@ print(str12.rjust(50))
 str13 = "Miraj , Madmud  , singh"
 print(str13.count("i"))
 
+# find()
+str14 = "Hi , I am Shahriar Mahmud Miraj"
+print(str14.find("Mahmud"))
+
+# index
+str15 = "Hi , I am Shahriar Mahmud Miraj"
+print(str15.index("Mahmud"))
+
+# isalnmu()
+str16 = "Hi , I am Shahriar Mahmud Miraj "
+print(str16.isalnum())
+
+# isalpha()
+str17 = "Welcome"
+print(str17.isalpha())
+
+# isdigit()
+str18 = "12345"
+print(str18.isdigit())
+
+# islower()
+str19 = "Miraj"
+print(str19.islower())
+
+# isprintable()
+str20 = "Miraj"
+print(str20.isprintable())
+
+# isspace()
+str21 = "                "
+print(str21.isspace())
+
+# istitle()
+str22 = "Hi , I am Shahriar Mahmud Miraj"
+print(str22.istitle())
+
+# isupper()
+str23 = "MIRAJ"
+print(str23.isupper())
+
+# join()
+str24 = "Miraj"
+print(str24.join([" ", "Singh"]))
+
+
 
 
 
