@@ -17,4 +17,12 @@ while (count >0):
   count = count - 1
 print("Done with the loop :")
 
+count = -5
+while (count >0):
+  print(count)
+  count = count - 1
+else:
+  print("Done with the loop :")
+
+
 
