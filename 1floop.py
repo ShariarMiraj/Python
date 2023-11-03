@@ -12,6 +12,14 @@ for color in colors:
   #   print(i)
   if (color == "red"):
     print("This is somthing")
+
+# k = int(input("Enter a number: "))
+# for k in range(10):
+#   print(k +1)
+  
+# k = int(input("Enter a number: "))
+# for k in range(1, 12, 3):
+#   print(k)
     
     
   
