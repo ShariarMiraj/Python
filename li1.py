@@ -57,3 +57,18 @@ print(marks[2])
 
 
 
+print("\n\n")
+
+# EX : 6
+
+marks = [3,5,6]
+if 7 in marks:
+  print("Yes")
+else:
+  print("No")
+  
+
+
+
+
+
