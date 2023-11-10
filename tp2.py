@@ -20,5 +20,6 @@ print("\n\n")
 
 tuple1 = (1, 2, 3, 4, 5, 5)
 res = tuple1.count(5)
-res = tuple1.index(3)
-print("Couting 5 : ", res)
+res1 = tuple1.index(3)
+res2 = len(tuple1)
+print("Couting 5 : ", res , "\nIndex of 3 : ", res1 , "\nLength of tuple : ", res2)
