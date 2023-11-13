@@ -13,3 +13,9 @@ fib_sequence = fibonacci(n)
 
 print(f"Fibonacci Sequence of length {n}: {fib_sequence}")
 # Output: Fibonacci Sequence of length 10: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
