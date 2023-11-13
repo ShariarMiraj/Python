@@ -18,3 +18,10 @@ def check_even_odd(number):
 num = 7
 result = check_even_odd(num)
 print(f"{num} is {result}.")
+
+# Call the function
+num = 6
+result = check_even_odd(num)
+print(f"{num} is {result}.")
+
+
