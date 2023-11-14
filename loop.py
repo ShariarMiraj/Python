@@ -11,3 +11,8 @@ for fruit in fruits:
 word = "Python"
 for char in word:
     print(char)
+
+# Example 4: Iterate over characters in a string, but skip the first character
+word = "Python"
+for char in word[1:]:
+    print(char)
