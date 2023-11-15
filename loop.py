@@ -16,3 +16,5 @@ for char in word:
 word = "Python"
 for char in word[1:]:
     print(char)
+
+
