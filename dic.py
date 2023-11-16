@@ -44,3 +44,16 @@ info = {
 
   }
 print(info)
+
+print(" ")
+
+# Accessing single value
+info = {"Name": "Miraj", "Age": 22, 'eligible':True}
+# print(info["Name"])
+# print(info["Age"])
+# print(info["eligible"])
+print(info["Name"], info["Age"], info["eligible"])
+print(info.get("Name"))
+print(info.get("Name2"))   # if i want show this error msg or say like unfind value showing .
+print(info.get("Name2", "Not Found"))
+
