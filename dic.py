@@ -28,19 +28,7 @@ info1 = {
   "DOB": "18 July 2001",
   "Height": "5', 7",
   "Weight": "60 kg",
-  "Marital Status": "Single",
-  "Languages": "English, Hindi, Urdu",
-  "Hobbies": "Reading, Writing, Travelling",
-  "Interests": "Music, Movies, Travelling",
-  "Favorite Food": "Pizza, Burger, Pasta",
-  "Favorite Color": "Blue, Red, Green",
-  "Favorite Subject": "Maths, Science, Social Science",
-  "Favorite Book": "Harry Potter, Lion King, Diary of a Wimpy Kid",
-  "Favorite Movie": "The Matrix, Harry Potter, Diary of a Wimpy Kid",
-  "Favorite Quote": "The Matrix, Harry Potter, Diary of a Wimpy Kid",
-  "Favorite Song": "The Matrix, Harry Potter, Diary of a Wimpy Kid",
-  "Favorite Band": "The Matrix, Harry Potter, Diary of a Wimpy Kid",
-  "Favorite Actor": "The Matrix, Harry Potter, Diary of a Wimpy Kid",
+
 
   }
 print(info1)
