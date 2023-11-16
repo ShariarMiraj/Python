@@ -14,7 +14,7 @@ print(dic[334])
 print(dic["B"])
 print(dic["C"])
 
-info = {
+info1 = {
   "Name": "Miraj",
   "Age": 22,
   "Gender": "Male",
@@ -43,7 +43,7 @@ info = {
   "Favorite Actor": "The Matrix, Harry Potter, Diary of a Wimpy Kid",
 
   }
-print(info)
+print(info1)
 
 print(" ")
 
@@ -54,6 +54,13 @@ info = {"Name": "Miraj", "Age": 22, 'eligible':True}
 # print(info["eligible"])
 print(info["Name"], info["Age"], info["eligible"])
 print(info.get("Name"))
-print(info.get("Name2"))   # if i want show this error msg or say like unfind value showing .
+print(info.get("Name2"))   # if i want show this error msg or say like unfind value showing.
 print(info.get("Name2", "Not Found"))
+
+
+print(' ')
+for key in info.keys():
+  print(f"This is correspomding to the key {key} is {info[key]}")
+# OR 
+print(info.values())
 
