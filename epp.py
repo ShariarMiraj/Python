@@ -1,6 +1,12 @@
-# Exception Handling in Python 
-b = int(input("Enter a number: "))
+# Exception Handling in Python
+
+b = input("Enter a number: ")
 print(f"Multipliction table {b} is :")
 
-for i in range(1 ,10):
-  print(f"{b} * {i} = {b*i}")
+try:
+  for i in range(1, 11):
+    print(f"{int(b)} X {i} = {int(b)*i}")
+except:
+  print("Invalid number..!")
+
+  
