@@ -51,3 +51,18 @@ def divide_Num():
   finally:
      print("End the program..")
 divide_Num()
+
+#  Simple finally code :
+
+print("\n")
+
+try:
+  l = [1, 5,6,7,8]
+  i = int(input("enter the number :"))
+  print(l[i])
+  
+except:
+  print("some error is ocured..")
+
+finally:
+  print("End the program...")
