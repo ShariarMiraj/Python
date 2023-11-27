@@ -17,16 +17,37 @@
 #   # Code that will be executed no matter what
 #   print("Execution complete.")
 
-try:
-  num =int(input("Enter a number:"))
-  result = 10 / num
-except ValueError:
-  print("Invalid number tpye")
 
-except ZeroDivisionError:
-  print("Zero cannot be divided any time ")
-else:
-  print("This thee result :", result)
+# exmple - 2 
+# try:
+#   num =int(input("Enter a number:"))
+#   result = 10 / num
+# except ValueError:
+#   print("Invalid number tpye")
 
-finally:
-  print("This is the end of the program")
+# except ZeroDivisionError:
+#   print("Zero cannot be divided any time ")
+# else:
+#   print("This thee result :", result)
+
+# finally:
+#   print("This is the end of the program")
+
+
+# exmple-3
+
+def divide_Num():
+  try:
+    a = int(input("Enter the firt number:"))
+    b = int(input("Enter the second number:"))
+    result = a / b
+  except ValueError:
+     print("Invalid input")
+  except ZeroDivisionError:
+      print("Cannot the zero be divi..")
+  else:
+     print(f" Result:{result:.2f}")
+
+  finally:
+     print("End the program..")
+divide_Num()
