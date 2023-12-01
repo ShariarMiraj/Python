@@ -95,3 +95,10 @@ print("Mixed Dictionary:", mixed_dict)
 sorted_dict = dict(sorted(my_dict.items()))
 print("Sorted Dictionary by Keys:", sorted_dict)
 
+# Sorting dictionary by values
+sorted_dict_values = dict(sorted(my_dict.items(), key=lambda item: item[1]))
+print("Sorted Dictionary by Values:", sorted_dict_values)
+
+# Dictionary with duplicate keys
+duplicate_dict = {'name': 'John', 'age': 30, 'city': 'New York'}
+print("Duplicate Dictionary:", duplicate_dict)
