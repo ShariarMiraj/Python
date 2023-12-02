@@ -1,0 +1,3 @@
+import miraj
+
+miraj.welcome()
