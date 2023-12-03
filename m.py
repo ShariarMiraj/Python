@@ -56,3 +56,10 @@ import  s  as hr
 # or from s import *
 hr.welcome()
 print(hr.miraj)
+
+print("\n")
+
+
+import h
+
+h.welcome()
