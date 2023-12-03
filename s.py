@@ -1,4 +1,4 @@
 def welcome():
   print("This is miraj..")
 
-welcome()
+miraj = "A good boy"

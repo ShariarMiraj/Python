@@ -17,8 +17,8 @@ from math import *
 result = sqrt(9) * pi
 print(result)
 
-print("\n")
 
+print("\n")
 #  or , this called as keyword  
 
 from math import pi ,sqrt as s  
@@ -33,9 +33,26 @@ import math  as m
 result = m.sqrt(8) * m.pi
 print(result)
 
+
 print("\n")
 # dir function 
 
 import math 
 
 print(dir(math))
+print(math.nan,type(math.nan))
+
+
+print("\n")
+
+from s import welcome, miraj
+# or from s import *
+welcome()
+print(miraj)
+
+# or 
+# now here i call (s.py) miraj function by hr 
+import  s  as hr
+# or from s import *
+hr.welcome()
+print(hr.miraj)
