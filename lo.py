@@ -27,9 +27,10 @@ def fun():
   x=9
   y=7
   print(y)
-  print(x)
+  # print(x)
 
 fun()
+print(x)
 
 
 #  Exmple-3
