@@ -19,3 +19,4 @@ cube = lambda x: x*x*x
 
 print(appl(cube , 2))
 print(appl(lambda x: x*x , 2))
+
