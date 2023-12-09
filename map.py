@@ -1,7 +1,7 @@
 # Map, Filter and Reduce in Python
 
 def cube(x):
-  return x * x
+  return x * x * x
 
 print(cube(2))
 
@@ -13,15 +13,6 @@ print(newl)
 
 print('\n')
 
-from functools import reduce
-
-# Syntax: reduce(function, iterable[, initializer])
-numbers = [1, 2, 3, 4, 5]
-
-# Example: Sum all the numbers in the list
-sum_of_numbers = reduce(lambda x, y: x + y, numbers)
-print(sum_of_numbers)  # Output: 15
-
 
 # Filter()
 
@@ -31,3 +22,32 @@ def filter_function(a):
 
 newnewl = list(filter(filter_function, l))
 print(newnewl)
+
+
+#  full modifly code 
+# same to same uper full code from line (1 - 24)
+# Map()
+l = [0,1,2,2,2,4]
+
+myf = list(map(lambda x: x*x, l))
+print(myf)
+
+print('\n')
+# filter
+def filter_funcation(b):
+  return b>2 or b<2
+
+myfn = list(filter(filter_funcation, l))
+print(myfn)
+
+
+
+# reduce
+from functools import reduce
+
+# Syntax: reduce(function, iterable[, initializer])
+numbers = [1, 2, 3, 4, 5]
+
+# Example: Sum all the numbers in the list
+sum_of_numbers = reduce(lambda x, y: x + y, numbers)
+print(sum_of_numbers)  # Output: 15
