@@ -24,6 +24,7 @@ newnewl = list(filter(filter_function, l))
 print(newnewl)
 
 
+# .................................................
 #  full modifly code 
 # same to same uper full code from line (1 - 24)
 # Map()
@@ -40,7 +41,7 @@ def filter_funcation(b):
 myfn = list(filter(filter_funcation, l))
 print(myfn)
 
-
+# ................................................
 
 # reduce
 from functools import reduce
@@ -49,5 +50,5 @@ from functools import reduce
 numbers = [1, 2, 3, 4, 5]
 
 # Example: Sum all the numbers in the list
-sum_of_numbers = reduce(lambda x, y: x + y, numbers)
-print(sum_of_numbers)  # Output: 15
+sum = reduce(lambda x, y: x + y, numbers)
+print(sum)  # Output: 15
