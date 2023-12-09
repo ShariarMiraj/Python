@@ -49,6 +49,11 @@ from functools import reduce
 # Syntax: reduce(function, iterable[, initializer])
 numbers = [1, 2, 3, 4, 5]
 
+# {def mysum(x, y):         #this 3 line are same ..(52-54) .when we write the lambda function ..we cant writte this 3 line} 
+
+#   return x + y
+# sum = reduce(mysum, numbers)
+
 # Example: Sum all the numbers in the list
 sum = reduce(lambda x, y: x + y, numbers)
 print(sum)  # Output: 15
