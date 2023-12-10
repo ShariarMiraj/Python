@@ -16,6 +16,24 @@ def miraj():
 miraj()
 
 
+# # EXMPLE__2
+
+def dec1(func1):
+  def exec():
+    print("Excuting right now..")
+    func1()
+    print("Thanks for using this function")
+    print("This is now excuted")
+  return exec
+
+@dec1
+def dec2():
+  print("Miraj is a good boy..")
+
+dec2()
+    
+
+
 # EXMPLE _3  from https://www.geeksforgeeks.org/decorators-in-python/
 
 # time of a function using a decorator.
