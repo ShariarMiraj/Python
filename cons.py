@@ -20,6 +20,7 @@ print('\n')
 
 class Miraj:
   def __init__(self,name, age):
+    print("This is a person information")
     self.name = name
     self.age = age
 
