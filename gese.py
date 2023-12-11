@@ -29,16 +29,17 @@ class Myclass:
   def show(self):
     print(f"Value is {self._value}")
 
-  # Getter
-  @property  
+  @property
   def value(self):
-    return  self._value
+    return self._value
 
-  @value.setter  # decorater
-  def value(self,new_value):
+  @value.setter
+  def value(self, new_value):
     self._value = new_value/10
 
 obj = Myclass(10)
 obj.value = 50
 obj.show()
-
+    
+    
+    
