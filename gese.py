@@ -29,11 +29,12 @@ class Myclass:
   def show(self):
     print(f"Value is {self._value}")
 
+  # Getter
   @property
   def value(self):
     return self._value
 
-  @value.setter
+  @value.setter   # decoretor
   def value(self, new_value):
     self._value = new_value/10
 
