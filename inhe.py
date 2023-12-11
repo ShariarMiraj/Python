@@ -25,3 +25,32 @@ e1.showInfo()
 e2 = Programer("Shahiar" , "doc@gmail.com")
 e2.showInfo()
 e2.showlanguage()
+
+
+
+
+# Base class
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        pass
+
+# Subclass inheriting from Animal
+class Dog(Animal):
+    def speak(self):
+        return f"{self.name} says Woof!"
+
+# Subclass inheriting from Animal
+class Cat(Animal):
+    def speak(self):
+        return f"{self.name} says Meow!"
+
+# Creating instances of subclasses
+dog_instance = Dog("Buddy")
+cat_instance = Cat("Whiskers")
+
+# Calling the speak method of each instance
+print(dog_instance.speak())  # Output: Buddy says Woof!
+print(cat_instance.speak())  # Output: Whiskers says Meow!
