@@ -1,0 +1,2 @@
+# Static Methods in Python 
+
