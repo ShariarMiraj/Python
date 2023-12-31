@@ -1,3 +1,4 @@
+# Class Methods as Alternative Constructors in Python
 class Employee:
   def __init__(self,name , age):
     self.name = name
