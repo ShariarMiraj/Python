@@ -7,6 +7,14 @@
         "version": 256,
         "index": 0
       }
+    ],
+    "shu.py": [
+      {
+        "id": "afe02f34-37ac-4e26-ba98-db02f053f450",
+        "line": 2,
+        "version": 3,
+        "index": 26
+      }
     ]
   }
 }
